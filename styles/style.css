@@ -196,8 +196,18 @@
 
 }
 .input{
-  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.input input{
   padding: 40px 18px;
+  border-radius: 5px 0px 0px 5px ;
+  outline: 0;
+  border: none;
+}
+.input button{
+  border-radius: 0px 5px 5px 0px;
+  border: none;
 }
 .sub-bg{
   background-color: rgb(198, 228, 214);
@@ -211,12 +221,14 @@
 .footer-img{
   display: flex;
   justify-content: center;
+  gap: 30px;
 }
-.footer{
+footer {
   background: rgb(255, 255, 255);
 }
 /* Challenge Style */
 .banner-card{
+  padding: 10px;
   position: relative;
   border-radius: 16px;
   background: rgb(255, 255, 255);
@@ -224,9 +236,12 @@
 .banner-card img{
   width: 70px;
   height: 80px;
+  position: absolute;
 }
 .banner-text{
-  position: absolute;
+  position: relative;
   top: 0;
-  padding: 10px;
+}
+.banner-text p{
+  line-height: 25px;
 }
