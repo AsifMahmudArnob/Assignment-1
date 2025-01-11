@@ -1,0 +1,232 @@
+/* Font Style */
+.fira-sans{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+  }
+  .fira-sans2{
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+  .fira-sans3{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+  }
+  .fira-sans4{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    margin-top: 0px;
+  }
+  .fira-sans6{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .fira-sans7{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+  }
+  .fira-sans8{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+  }
+  /* Nav Style */
+  .nav-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .btn-primary{
+    padding: 15px 30px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 106, 80);
+    border-radius: 8px;
+  }
+  /* Banner Style */
+  .container{
+    margin: auto;
+    width: 1280px;
+
+  }
+  .btn1{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 17px 34px;
+    background-color: rgb(0, 106, 80);
+    border-radius: 8px;
+    border: none;
+  }
+  .banner-bg{
+    display: flex;
+    background-color: rgb(198, 228, 214);
+    border-radius: 24px;
+    padding: 50px 80px;
+  }
+  .banner-content{
+    width: 593px;
+  }
+  /* Pillar Style */
+  .fira-sans5{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 150px;
+  }
+  .pillar img{
+    width: 100px;
+    height: 100px;
+  }
+  .pillar {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .box-title{
+    font-family: Fira Sans;
+  }
+  .box-description{
+  }
+.box{
+  width: 250px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  padding: 25px;
+  background-color: white;
+}
+/* Body color */
+#color{
+  background-color: rgb(255, 244, 244);
+}
+/* Vision Section */
+.vision img{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.vision{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.vision-box{
+  font-family: Fira Sans;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 30px;
+}
+.b{
+  background: rgba(84, 144, 245, 0.2);
+}
+.g{
+  background: rgb(198, 228, 214);
+}
+.y{
+  background: rgb(247, 235, 207);
+}
+.container2{
+  margin: auto;
+  width: auto;
+  text-align: center;
+}
+.text{
+  margin-bottom: 30px;
+}
+.btn2{
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: none;
+}
+.b1{
+  background: rgb(84, 144, 245);
+}
+.g1{
+  background: rgb(9, 161, 92);
+}
+.y1{
+  background: rgb(255, 194, 57);
+}
+/* Recent Section */
+.recent img{
+  width: 550px;
+  height: 350px;
+  border-radius: 24px;
+}
+.text2{
+  margin-bottom: 30px;
+}
+.recent-main{
+  display: flex;
+  justify-content: space-evenly;
+}
+.channel-img{
+  width: 100px;
+  height: 30px;
+}
+/* Subscribe Style */
+.text3{
+  text-align: center;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+
+}
+.input{
+  text-align: center;
+  padding: 40px 18px;
+}
+.sub-bg{
+  background-color: rgb(198, 228, 214);
+  border-radius: 24px;
+  padding: 50px 80px;
+}
+/* Footer Style */
+.text4{
+  text-align: center;
+}
+.footer-img{
+  display: flex;
+  justify-content: center;
+}
+.footer{
+  background: rgb(255, 255, 255);
+}
+/* Challenge Style */
+.banner-card{
+  position: relative;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+.banner-card img{
+  width: 70px;
+  height: 80px;
+}
+.banner-text{
+  position: absolute;
+  top: 0;
+  padding: 10px;
+}
